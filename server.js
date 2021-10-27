@@ -1,8 +1,8 @@
-var express = require("express");
-var app = express();
+import express from "express";
+let app = express();
 
-var hostname = "localhost";
-var port = 8000;
+let hostname = "localhost";
+let port = 8000;
 
 app.get("/helloword", (req, res) => {
   res.send("<h1>Hello word !</h1>");
